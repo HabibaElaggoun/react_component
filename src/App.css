@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.myname{
+  color: rgb(221, 97, 97);
+  font-family: papyrus;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 5px;
+  
+}
+
+.phot{
+  border-radius: 10%;
+ }
+.imag{
+  opacity: 1;
+  display: block;
+  margin-top: 30px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+div img:hover {
+  border-radius: 20%;
+  opacity: 0.5;
+}
+div h1:hover {
+  
+  color:rgb(53, 207, 228);
+  opacity: 1;
+}
+
+.adrs{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  padding-top: 20px;
+  
+  font-size: 30px;
+  margin-left: 600px;
+  
+
+}
+div h4:hover{  
+ 
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-color: rgb(255, 60, 0); 
+  background-color: rgb(43, 168, 226); 
+
+}
+body{
+  background-color: beige;
+  border:  groove rgb(169, 194, 28) 20px;
+  margin: 10%;
+
+}
